@@ -1,0 +1,61 @@
+* {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+/* Display */
+.display {
+  color: aquamarine;
+}
+
+#d1 {
+  display: inline;
+  background-color: blanchedalmond;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#d2 {
+  display: inline-block;
+  background-color: antiquewhite;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#d3 {
+  display: block;
+  background-color: beige;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Box Model */
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right{
+    width: 40%;
+    height: 300px;
+    background-color: crimson;
+    /* up right down left */
+    margin: 10px 20px 10px 20px;
+    /* margin: 15px 20px; */
+    /* margin: 15px; */
+    border: 15px solid rgb(0, 255, 234);
+    padding: 20px 15px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+}
