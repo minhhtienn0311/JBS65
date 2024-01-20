@@ -1,0 +1,19 @@
+#flex-box {
+  font-family: "Rubik Burned", system-ui;
+  background-color: bisque;
+  /* padding: 15px; */
+  /* Display flex */
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+  flex-flow: row nowrap;
+}
+
+.item {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(100, 47, 247);
+  font-size: xx-large;
+  color: aliceblue;
+}
