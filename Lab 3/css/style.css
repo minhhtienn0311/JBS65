@@ -1,0 +1,61 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  display: flex;
+}
+nav {
+  background-color: aliceblue;
+  width: 30%;
+  height: 600px;
+}
+main {
+  width: 70%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+nav,
+header,
+footer,
+article,
+aside {
+  border: 2px solid black;
+}
+header,
+footer {
+  background-color: antiquewhite;
+}
+header {
+  height: 100px;
+}
+footer {
+  min-height: 100px;
+}
+article {
+  background-color: aqua;
+  min-height: 400px;
+  width: 100%;
+}
+aside {
+  background-color: aquamarine;
+  min-height: 100%;
+}
+.content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  flex-flow: row nowrap;
+  /* align-items: stretch; */
+}
+
+.content .left {
+  width: 80%;
+  /* display: flex; */
+  /* flex-flow: column wrap; */
+}
+
+.content .right {
+  width: 20%;
+  /* max-height: 500px; */
+}
