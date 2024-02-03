@@ -1,0 +1,21 @@
+.all {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.content {
+    height: 600px;
+    width: 300px;
+    font-weight: normal;
+}
+img {
+    height: 400px;
+    min-width: 300px;
+}
+.navigator {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
