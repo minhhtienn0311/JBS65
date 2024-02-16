@@ -1,0 +1,45 @@
+.all {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 30%;
+}
+.title {
+    justify-items: center;
+}
+h1 {
+    padding-left: 470px;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  height: 70%;
+}
+.content {
+  height: 200px;
+  width: 430px;
+    display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.information {
+  width: 70%;
+ height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+p {
+    height: 55%;
+    width: 100%;
+    font-size: 16px;
+}
+hr {
+    width: 75px;
+    height: 3px;
+    background-color: blue;
+
+}
