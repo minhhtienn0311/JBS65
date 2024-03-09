@@ -1,22 +1,21 @@
 // bai 1
 let x = prompt("Nhap 1 so:")
 
-function kiemTraSo(num) {
-    //ngoai le - khong phai so
-    if (!Number.isFinite(num)) return num + "khong phai so";
-    // doi kieu du lieu
-    num = parseFloat(num);
-    //kiem tra
-    if(num < 0) {
-        return num + "la so am";
-    } else if (num == 0) {
-        return num + "la 0";
-    } else {
-        if (num % 1 == 0) return num + "so nguyen duong";
-        // if (Number.isInteger(x)) return num + "so nguyen duong";
-        else if (num + "la so thap phan duong")
-    }
-}
+// function kiemTraSo(num) {
+//     //ngoai le - khong phai so
+//     if (!Number.isFinite(num)) return num + "khong phai so";
+//     // doi kieu du lieu
+//     num = parseFloat(num);
+//     //kiem tra
+//     if(num < 0) {
+//         return num + "la so am";
+//     } else if (num == 0) {
+//         return num + "la 0";
+//     } else {}
+//         if (num % 1 == 0) return num + "so nguyen duong";
+//         // if (Number.isInteger(x)) return num + "so nguyen duong";
+//         else if (num + "la so thap phan duong")
+
 
 console.log(kiemTraSo(x));
 
@@ -46,6 +45,3 @@ function max2(a, b, c) {
         return c;
     }
 }
-
-// bai 3
-const diem = 
