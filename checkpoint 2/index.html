@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Form</title>
+</head>
+
+<body>
+    <script>
+        let diem = prompt("Nhap diem :");
+        diem = parseFloat(diem);
+        
+        if (diem < 4) {
+            alert("Đạt loại Yếu");
+        }
+        else if (diem < 6) {
+            alert("Đạt loại Trung bình");
+        }
+        else if (diem < 8) {
+            alert("Đạt loại Khá");
+        }
+        else if (diem < 9.5) {
+            alert("Đạt loại giỏi ");
+        }
+        else if (diem <= 10) {
+            alert("Đạt loại Xuất sắc");
+        }
+
+    </script>
+</body>
+
+</html>
